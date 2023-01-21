@@ -1,0 +1,62 @@
+Power BI Assignment-1
+
+1. What do you mean by BI? Explain.
+Ans. BI stands for Business Intelligence. It refers to an infrastrucutre which collects and analyzes data to help companies
+	make data driven decisions which will help them stay competitive and grow their profits.For analysis, we use some 
+	softwares called BI tools. In every business, management needs to understand the growth and opportunities for growth. To 
+	make informed decision, they need data which could be stored in various data warehouses of companies. Now the collected 
+	data has to filtered to an extent which would help to solve that business problem. If the data is in just plain numbers 
+	it would not be much readable. So the final reports are created where the cleaned and relevant data is represented in the 
+	form of charts and graphs. This representation is much more readable and easy to take insights from. 
+
+2. How Power-BI helps in BI, and how does it help Analysts? Explain.
+Ans. Power BI helps in easy data loading and visualization. It helps analysts in the sense that an analyst can represent data
+	in the form of charts and graphs which will make data more readable. With Power BI, an analyst doesn't have to write any 
+	code or remember syntaxes. It can easily be used and manipulated by tech and non-tech person.The whole tool is very easy 
+	to navigate which have multiple of charts and graphs pre loaded and a very rich library where developers from around the 
+	world have developed charts and are free to use. Data representation is as easy as dragging and dropping the desired 
+	field. It gives a wide range of connectivity from different data sources. 
+
+3. Explain Descriptive analytics?
+Ans. Descriptive analytics is the part of analytics where we understand why a problem happened using data. For this we use 
+	current and historical data to establish relationships and display trends. It is the simplest of all other analytics, 
+	as in here we are just using tools to show the trends and relationships and not deep diving in the data. 
+
+4. Explain Predictive analytics?
+Ans. In predictive analytics, we use tools to understand the trends and relationships of historic data to predict the future. 
+	Although we know future is unpredictable, data helps us make a better decision. In predictive analysis, we are using 
+	historic trends to forecast possible future events using data. Example of predictive analytics is weather forecasting. 
+	
+
+5. Explain Prescriptive analytics?
+Ans. Prescriptive analytics is the form of analytics where we use data to develop an optimal course of action. By considering
+	all factors, we make a data driven decision. Machine learning algorithms help us parse through the data faster and 
+	efficiently. With ML, we can quickly go through huge chunks of data which will help us to make recommendation based on a
+	specific combination of requirements. It is important to note that while ML algorithms can give us data driven 
+	recommendation but it can still not replace human discernment. Prescriptive analytics will just provide recommendations
+	strategies but our judgement is still needed to make the decisions.
+	
+
+6. Write five real-life questions that PowerBI can solve.
+Ans.(a) Gathering information from different departments is hectic job in every organization. You have to rely on different
+	departments for the data, interpret it and then produce actionable insights. Power BI helps to access data instantly. It 
+	can handle large amounts of data. It can automatically connect to different data sources saving time and effort. Once a 
+	report is created you only have to hit refresh or enable schedule refresh to get real time insights.
+	
+	(b) Everyone wants to use high quality data for analysis. High quality data helps to make better decision and saves the
+	company from making costly mistakes. Power BI quickly understand data quality issues and provides numerous ways to solve
+	them. Power Query provides features to clean and prepare data. Data profiling can help you remove all the 
+	inconsistencies, null values and data quality problems. 
+	
+	(c) Data security is an essential part for adoption of any technology. If data is not secured properly it may get lost by
+	system failure, altered or deleted by hackers. Power BI comes with Azure Active Directory for authentication and Power BI
+	login credentials to access the resources. You can grant access to your data to people of your choice.
+	
+	(d) Company uses many visualization tools which are complicated and can only handled and manipulated by a tech expert. If 
+	any changes are needed, the management has to wait for the tech expert to do so. However, Power BI is very easy to 
+	navigate and can be handled by a non tech person also. For changes one must not always have to rely on a tech expert. 
+	It's easy to use interface and navigation makes it versatile.
+	
+	(e) Every business has to analyse and understand trends in their business to stay completitive in the market. They need 
+	to understand it to predict future and opportunities. Power BI helps in monitoring the processes of the company. Data 
+	Analysis Expressions(DAX) provides a wide range of functionalities in trends analysis.
