@@ -1,0 +1,97 @@
+Power BI Assignment-2
+
+1. Explain the advantages of Natural Queries in PowerBi with an example?
+Ans.Natural Language Query is a feature in Power BI which helps to generate or manipulate the graphs according to one's
+	specific requirement. This feature in Power BI listed as Q&A. This helps the user to type their requirement and thus 
+	Power BI will show the graph according to that. For example, an analyst has developed a beautiful dashboard using different
+	charts and different factors. Now one of the member of leadership is just interested in knowing how much is the sales in 
+	the last year 5 years. He just have to type in the Q&A section: "Sales in 5 years". Then the visualizations will change and 
+	show him sales for 5 years. While creating a dashboard, it is good to include this as we don't know how much the end user
+	may know about Power BI and this will help them tailor the visualization according to the need. 
+
+2. Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+Ans.Web Front End cluster manages the initial connection and authentication to Power BI service. The WFE cluster uses Azure AD to authenticate clients, 
+	and provide tokens for subsequent client connections to the Power BI service. Power BI uses the Azure Traffic Manager 
+	(Traffic Manager) to direct user traffic to the nearest datacenter. Traffic Manager directs requests using the DNS record	
+	of the client attempting to connect, authenticate, and to download static content and files. Power BI uses the Azure 
+	Content Delivery Network (CDN) to efficiently distribute the necessary static content and files to users based on 
+	geographical locale.
+
+
+3. Explain Back End cluster from Power BI Service Architecture?
+Ans. The Back-End cluster determines how authenticated clients interact with the Power BI service. The Back-End cluster manages 
+	visualizations, user dashboards, datasets, reports, data storage, data connections, data refresh, and other aspects of 
+	interacting with the Power BI service. The Gateway Role acts as a gateway between user requests and the Power BI service.
+	Users don't interact directly with any roles other than the Gateway Role. Azure API Management eventually handles the 
+	Gateway Role.
+
+
+
+4. What ASP.NET component does in Power BI Service Architecture?
+Ans. ASP.NET is an open-source, server-side web-application framework designed for web development to produce dynamic web 
+	pages. It was developed by Microsoft to allow programmers to build dynamic web sites, applications and services. The 
+	name stands for Active Server Pages Network Enabled Technologies. With ASP.NET, we can embed the Power BI report when 
+	published online on Power BI online. We just have to copy the markup from Power BI portal, paste it to ASP.NET Core 
+	view and done.
+
+
+5. Compare Microsoft Excel and PowerBi Desktop on the following features:
+	Data import
+	Data transformation
+	Modeling
+	Reporting
+	Server Deployment
+	Cost
+Ans.Data import:
+	When it comes to data import, MS Excel can only import from few data sources like xls, xlsx, etc. The whole list can be 
+	found as follows: Data> Get data.
+	When compared to Excel Power BI's connectivity to data source is high. The list is very long. All the data sources can be
+	found as follows: Home> Get data.
+	
+	Data transformation:
+	To transform data, one has to first load the data. In Excel we have to follow these steps Data> Get data> Then select the
+	data source>Data transformation can be done.
+	In Power BI, to transform data we have to open Power Query. The steps are Home> Transform data> Transform data or we can 
+	also do the same while loading data as Home> Get data> Select data source> Select data> Transform data.
+
+	Modeling:
+	In Excel, data models are created as follows: Select the table> Power Pivot > Add to Data Model. 
+	In Power BI, data models are created automatically when importing data from the sources. 
+
+	Reporting:
+	In Excel, we can create a visual report as follows: Select the data> Insert> Recommended charts> All charts.
+	In Power BI, we have to load the data first. Under Report we can then select the chart or graphs.
+
+	Server Deployment:
+	In Excel a file can be shared on server as Select Share>Select permissions and then Apply>Add people>Type a message if 
+	you like> Select Send.
+	Power BI copies the content from the current stage, into the target one. The connections between the copied 
+	items are kept during the copy process.
+	
+	Cost:
+	The cost of MS Excel for a year is $160 and per month $6.99.
+	Power BI Pro costs $9.99/user/month and Power BI Premium costs $20/user/month.
+
+6. List 20 data sources supported by Power BI desktop.
+Ans.20 data sources supported by Power BI desktop are: 
+	1.	Excel Workbook
+	2.	Text/CSV
+	3.	XML
+	4.	JSON
+	5.	Folder
+	6.	PDF
+	7.	Parquet
+	8.	SharePoint folder
+	9.	Adobe Analytics	
+	10.	Amazon Athena	
+	11.	Amazon Redshift	
+	12.	Google Sheets	
+	13.	Google BigQuery	
+	14.	Anaplan	
+	15.	Azure Data Explorer (Kusto)		
+	16.	Google Analytics	
+	17.	Hadoop File (HDFS)	
+	18.	Hive LLAP	
+	19.	IBM DB2	
+	20.	IBM Informix Database	
+
