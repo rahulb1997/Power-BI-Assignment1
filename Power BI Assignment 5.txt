@@ -1,0 +1,52 @@
+Power BI Assignment 5
+
+Q1. Explain DAX.
+Ans. Data Analysis Expressions (DAX) is a formula expression language used in Analysis Services, Power BI, and Power Pivot in 
+	Excel. DAX formulas include functions, operators, and values to perform advanced calculations and queries on data in 
+	related tables and columns in tabular data models.
+
+Q2. Explain datasets, reports, and dashboards and how they relate to each other?
+Ans. A dataset is a collection of data that you import or connect to. Power BI lets you connect to and import all sorts of 
+	datasets and bring all of it together in one place. Datasets can also source data from dataflows. Datasets are associated 
+	with workspaces and a single dataset can be part of many workspaces.
+
+	A Power BI report is a multi-perspective view into a dataset, with visuals that represent findings and insights from that 
+	dataset. A report can have a single visual or many pages full of visuals. 
+	
+	A Power BI dashboard is a single page, often called a canvas, that tells a story through visualizations. Because it's 
+	limited to one page, a well-designed dashboard contains only the highlights of that story.
+
+	A dataset is used to create one or more report. Multiple reports make a dashboard which could be coming from one dataset or
+	more.
+
+Q3. How reports can be created in power BI, explain two ways with Navigation of each.
+Ans. Currently, we can only create a report based on an existing dataset or pasting or manually entering data directly in a 
+	table. For manually entering the the data the steps are: 
+	Create> Paste or manually enter data> Enter the data or paste it.	
+	For report creation from existing dataset the steps are: 
+	Create> Pick a published dataset> Select the existing dataset
+
+Q4. How to connect to data in Power BI? How to use the content pack to connect to google analytics? Mention the steps.
+Ans. We can connect to the data sources via "Get data" from the Home ribbon tab. 
+	To connect to google analytics the steps are:
+	1. In Power BI Desktop, select Get data from the Home ribbon tab and click More.
+	2. In the Get Data window, select Online Services from the categories in the left pane.
+	3. Select Google Analytics from the selections in the right pane.
+	4. At the bottom of the window, select Connect
+
+Q5. How to import Local files in Power BI? Mention the Steps.
+Ans. To import Local files in Power BI the steps are:
+	1. In Power BI Desktop, select Get data from the Home ribbon tab and click More.
+	2. In the Get Data window, select File from the categories in the left pane.
+	3. Now you can select the file type as per the requirements.
+
+Q6. In Power BI visualization, what are Reading View and Editing view?
+Ans. The Power BI service has two different modes for interacting with reports: Reading view for report business users and 
+	Editing view for report owners and creators. We need a Power BI Pro or Premium Per User (PPU) license to share reports 
+	and to edit reports created by others. Without a Pro or Premium Per User (PPU) license, we can still create reports in 
+	your My Workspace, but you can't share them.
+	In report Editing view, you have flexibility in both exploring and designing a report. All the Reading view functionality
+	is available plus much more.
+	
+
+
